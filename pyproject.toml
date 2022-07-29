@@ -6,9 +6,10 @@ authors = ["moradalkhatib <muradalkhateb@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest = "^7.1.2"
+termcolor = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 black = {version = "^22.6.0", allow-prereleases = true}
 
 [build-system]
